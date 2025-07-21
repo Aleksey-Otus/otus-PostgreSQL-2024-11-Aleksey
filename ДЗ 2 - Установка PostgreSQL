@@ -1,6 +1,7 @@
 ## 1. создать ВМ с Ubuntu 20.04/22.04 или развернуть докер любым удобным способом
 Создана ВМ в Яндекс облаке, сгенерирован SSH ключ.
 https://github.com/Aleksey-Otus/otus-PostgreSQL-2024-11-Aleksey/commit/73dcb940a1e05eed6be39a47305d9c38527d495a#diff-c4677b907bc285414ea86b76d18c3ca60f240d29c2adf8483e635fcc99e98e82R3
+
 ## 2. поставить на нем Docker Engine
 ## Установка Docker командой: 
 curl -fsSL https://get.docker.com -o get-docker.sh && sudo sh get-docker.sh && rm get-docker.sh && sudo usermod -aG docker $USER && newgrp docker
